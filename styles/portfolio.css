@@ -1,3 +1,26 @@
-h1 {
-  color: blueviolet;
+h1,
+h2,
+h3 {
+  color: rgb(59, 30, 87);
+  text-align: center;
+}
+body {
+  background-color: #fef6f6;
+}
+.hero {
+  margin: 0 auto;
+  padding: 200px;
+}
+.skills-head {
+  margin-top: 50px;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row {
+  text-align: center;
+}
+.skills {
+  margin-top: 80px;
 }
