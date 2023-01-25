@@ -1,3 +1,7 @@
+:root {
+  --background-color: #fef6f6;
+}
+
 h1,
 h2,
 h3 {
@@ -5,7 +9,7 @@ h3 {
   text-align: center;
 }
 body {
-  background-color: #fef6f6;
+  background-color: var(var(--background-color));
 }
 .hero {
   margin: 0 auto;
