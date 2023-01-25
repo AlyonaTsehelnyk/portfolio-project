@@ -1,19 +1,21 @@
 :root {
-  --background-color: #fef6f6;
+  --background-color: #ffeeee;
+  --text-color: rgb(34, 15, 52);
+  --button-color: #e6bfbf;
 }
 
 h1,
 h2,
 h3 {
-  color: rgb(59, 30, 87);
+  color: var(--text-color);
   text-align: center;
 }
 body {
-  background-color: var(var(--background-color));
+  background-color: var(--background-color);
 }
 .hero {
   margin: 0 auto;
-  padding: 200px;
+  padding: 80px 100px 120px 100px;
 }
 .skills-head {
   margin-top: 50px;
@@ -27,4 +29,29 @@ body {
 }
 .skills {
   margin-top: 80px;
+}
+.btn {
+  background-color: #e89c9c;
+}
+.btn:hover {
+  background-color: #cf9494;
+}
+p {
+  text-align: left;
+}
+@media (max-width: 800px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  p {
+    text-align: center !important;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+}
+.header {
+  margin-top: 150px;
 }
