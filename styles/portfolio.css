@@ -54,7 +54,16 @@ p {
   .skills-head {
     margin-bottom: 10px;
   }
+  .picture {
+    width: 250px;
+  }
 }
 .header {
   margin-top: 150px;
+}
+.about-me {
+  margin-top: 150px;
+}
+.about-me-paragraph {
+  text-align: center;
 }
