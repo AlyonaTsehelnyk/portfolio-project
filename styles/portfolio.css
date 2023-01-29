@@ -67,3 +67,13 @@ p {
 .about-me-paragraph {
   text-align: center;
 }
+.project-name {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+}
+.projects-heading {
+  margin-top: 100px;
+  padding: 50px 50px 50px 50px;
+}
