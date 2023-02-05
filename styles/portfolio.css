@@ -87,3 +87,16 @@ p {
   display: flex;
   justify-content: center;
 }
+footer {
+  margin-top: 20px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 20px;
+  background-color: #e3a3a3;
+  border-radius: 35px;
+}
+footer .social-links a:hover {
+  color: aliceblue;
+  background-color: var(--button-color);
+}
